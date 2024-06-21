@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    background-color: #333;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar nav ul li {
+    margin: 0 15px;
+}
+
+.navbar nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+}
+
+.navbar nav ul li a:hover {
+    background-color: #575757;
+    transition: background-color 0.3s ease;
+}
+
+section {
+    padding: 100px 20px;
+    margin-top: 60px;
+}
+
+#home {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#about, #services, #contact {
+    background-color: #e2e2e2;
+    text-align: center;
+}
+
+.scrolled {
+    background-color: #444 !important;
+    transition: background-color 0.3s ease;
+}
